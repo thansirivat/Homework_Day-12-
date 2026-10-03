@@ -1,0 +1,58 @@
+.head {
+    background-color: green;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 5%;
+    color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0% 10%;
+}
+
+.item{
+  border: 3px solid;
+  padding: 10px;
+  width: 160px;
+  height: 350px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.item_special{
+  order: -1;  
+}
+.item_special:hover{
+  background-color: red;
+}
+
+.item img{
+  margin: 0 auto;
+  width: 70%;
+  
+}
+
+.buy_button{
+  background-color: blue;
+    color: white;
+    padding: 5% 10%;
+}
+.detail_button{
+  background-color: lightgray;
+    color: white;
+    padding: 5% 10%;
+}
+
+button:hover {
+    background-color: darkblue;
+}
